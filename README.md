@@ -40,6 +40,6 @@ To customize the look of the tab bar, access the `tabBarView` property of NATabB
 
 <pre>
     - (void)setBackgroundImage:(UIImage *)image
-    - (void)setTabSelectedBackgroundImage:(UIImage *)image
+    - (void)setSelectedTabBackgroundImage:(UIImage *)image
     - (void)setMoreTabImage:(UIImage *)image selectedImage:(UIImage *)selectedImage
 </pre>

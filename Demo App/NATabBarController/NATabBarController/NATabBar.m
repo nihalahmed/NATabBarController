@@ -290,7 +290,7 @@ static int NATabBarKVOContext;
 }
 
 // Sets the background image of each tab in the tab bar when it is selected
-- (void)setTabSelectedBackgroundImage:(UIImage *)image
+- (void)setSelectedTabBackgroundImage:(UIImage *)image
 {
     for(UIButton *btn in _btns) {
         [btn setBackgroundImage:image forState:UIControlStateHighlighted];

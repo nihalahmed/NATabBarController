@@ -43,7 +43,7 @@
 - (void)setBackgroundImage:(UIImage *)image;
 
 // Sets the background image of each tab in the tab bar when it is selected
-- (void)setTabSelectedBackgroundImage:(UIImage *)image;
+- (void)setSelectedTabBackgroundImage:(UIImage *)image;
 
 // Sets the image of the more tab when it is in normal and selected state
 - (void)setMoreTabImage:(UIImage *)image selectedImage:(UIImage *)selectedImage;
